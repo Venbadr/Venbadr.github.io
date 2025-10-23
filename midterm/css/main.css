@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    
+    background-position: center;
+    margin: auto;
+    width: 1000px;
+    
+}
+
+nav  {
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    border-right: 1px solid black;
+    font-weight: bold;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration:none
+
+}
+
+
+body{
+    background-color: #a6d3ce;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero h1 {
+    color:  white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    font-weight: lighter;
+
+
+}
+.stage{
+    background-color: #daede9;
+}
+
+#image{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
