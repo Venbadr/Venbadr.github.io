@@ -110,32 +110,44 @@ fieldset {
 h5{
     font-size: 15px;
 }
-.contat-box {
-  display: flex;
-  flex-direction: column;
-  gap:5px; 
+
+
+.contact-box label {
+  margin-bottom: 20px;
 }
 
-.contat-box label {
-  margin-bottom: 5px;
-}
-
-.contat-box input[type="text"],
-.contat-box input[type="email"],
-.contat-box textarea {
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box textarea {
   width: 100%;
   padding: 6px;
   box-sizing: border-box; 
 }
+#message {
+    height: 100px;
+}
+
 
   button {
   cursor: pointer;  
-  width: 70px;
+  width: 60px;
+  padding: 6px;
   background-color:#d7ebe9;
+  margin-bottom: 20px;
+}
+
+.button-wrapper {
+    margin-top: 15px;
 }
 
 
 
 footer {
+    color: black;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+    margin-top: 20px;
     
 }
