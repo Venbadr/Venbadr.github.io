@@ -12,12 +12,21 @@
     
 }
 
+/* this is the p decoration*/
+
+p {
+    margin-left: 190px;
+}
+
+/* this is the navs decoration */
+
 nav  {
     text-align: center;
     padding: 12px 0;
     position: absolute;
     top: 39.5%;
     left: 8.4%;
+    
     
 }
 
@@ -35,6 +44,12 @@ nav ul li a{
 
 }
 
+nav ul li:last-child {
+    border-right: none;
+    
+}
+
+/* this is the body decoration*/
 
 body{
     background-color: #a6d3ce;
@@ -56,10 +71,14 @@ body{
     position: absolute;
     top: 60%;
     left: 35%;
-
-
-
 }
+.stage{
+    background-color: #daede9;
+    
+}
+
+
+/* this is the image decoration */ 
 
 .hero img {
     width: 100%;
@@ -67,28 +86,32 @@ body{
     display: block;
 
 }
-.stage{
-    background-color: #daede9;
-    
-}
+
 
 #image{
     height: 180px;
     width: 170px;
     float: left;
+    margin-left: 5px;
 }
+
 
 
 .hero {
     margin-bottom: 50px;
 }
+
+/* this is the headings decoration */
+
 h2 {
     font-weight: bold;
     font-size: 20px;
+    margin-left: 5px;
 }
 h3 {
     font-weight: bold;
     font-size: 20px;
+    margin-left: 5px;
 }
 p{
     font-size: 12px;
@@ -97,9 +120,14 @@ p{
 h4{
     font-weight: bold;
     font-size: 20px;
+    margin-left: 5px;
 }
 
+h5{
+    font-size: 15px;
+}
 
+/* this is the fieldset decoration */
 
 fieldset {
   border: 1px solid black; 
@@ -107,10 +135,7 @@ fieldset {
   margin: 0;
 }
 
-h5{
-    font-size: 15px;
-}
-
+/* this is the contact decoration */
 
 .contact-box label {
   margin-bottom: 20px;
@@ -127,6 +152,7 @@ h5{
     height: 100px;
 }
 
+/* this is the button decoration */
 
   button {
   cursor: pointer;  
@@ -140,7 +166,7 @@ h5{
     margin-top: 15px;
 }
 
-
+/* this is the footer decoration */
 
 footer {
     color: black;
