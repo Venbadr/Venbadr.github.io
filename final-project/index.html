@@ -13,16 +13,16 @@
       <nav>
         <img src="images/logo.png" alt="logo" id="logo" />
         <ul>
-          <li><a href="home">Home</a></li>
-          <li><a href="aboutus">About Us</a></li>
-          <li><a href="services">Services</a></li>
-          <li><a href="team">Team</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <label for="search"></label>
         <input type="text" id="search" placeholder="Search" />
       </nav>
-      <div class="wrapper">
+      <div class="wrapper" id="home">
         <div class="header">
           <!--this the header with the banner image-->
           <img src="images/main-banner.jpg" alt="main-banner" id="mainbanner" />
@@ -44,7 +44,7 @@
     </header>
     <main>
       <!--about us information-->
-      <section class="about">
+      <section class="about" id="aboutus">
         <div class="aboutcontainer">
           <div class="aboutimage">
             <img src="images/about-us.jpg" alt="aboutus" id="aboutus" />
@@ -168,7 +168,8 @@
           >
         </div>
       </section>
-      <section class="team">
+      <!--The team-->
+      <section class="team" id="team">
         <h1>Our Team</h1>
         <div class="teaminfo">
           <img src="images/john.jpg" alt="john" id="john" />
@@ -195,7 +196,8 @@
           </div>
         </div>
       </section>
-      <section class="contactinfo">
+      <!--the contact-->
+      <section class="contactinfo" id="contact">
         <h1>Contact Us</h1>
         <div class="wrapper2">
           <h2>Send us a message</h2>
@@ -209,6 +211,7 @@
             <button type="submit">Send</button>
           </div>
         </div>
+        <!--the location-->
         <h3>Location</h3>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9503616948955!2d-75.75790842369048!3d45.34981427107227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1764712745200!5m2!1sen!2sca"
