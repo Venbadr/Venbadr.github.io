@@ -47,10 +47,38 @@ table {
 	border-spacing: 0;
 }
 
-
-header {
-    background-color: #222;
-}
-#logo {
+.log {
+    background-color: #c78c06;
+    height: 200px;
     
 }
+nav {
+    background-color: #222;
+    justify-items: center;
+    height: 250px;
+    display: grid;
+}
+.search {
+
+    height: 20px;
+    
+}
+.material-symbols-outlined {
+    color: #c78c06;
+    background-color: #222;
+    /* border-color: #c78c06; */
+    border: 1px solid #c78c06;
+
+    
+
+}
+
+.arrow {
+    color: #c78c06;
+    background-color: white;
+    /* border-color: #c78c06; */
+    border: 1px solid #c78c06;
+    
+}
+
+

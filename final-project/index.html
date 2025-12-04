@@ -10,22 +10,26 @@
   </head>
   <body>
     <header>
+      <div class="log">
+        <img src="images/logo.png" alt="logo" id="logo" />
+        </div>
       <!--this is the navigations with the image logo-->
       <nav>
-        <img src="images/logo.png" alt="logo" id="logo" />
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#aboutus">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
-        </ul>
-        <form>
-        <label for="search"></label>
+          </ul>
+          <form>
+            <div class="search">
+          <label for="search">search</label>
         <input type="text" id="search" placeholder="Search" />
         <button class="material-symbols-outlined">search</button>
-
+        </div>
         </form>
+        
       </nav>
       <div class="wrapper" id="home">
         <div class="header">
@@ -43,7 +47,7 @@
             temporibus iure? Quo, aliquam!
           </p>
           <a href="#" class="connect"
-            >Connect with us<span class="material-symbols-outlined">arrow_right</span>
+            >Connect with us<span class="material-symbols-outlined arrow">arrow_right</span>
           </a>
           </div>
         </div>
@@ -52,7 +56,7 @@
     <main>
       <!--about us information-->
       <section class="about" id="aboutusinfo">
-        <div class="aboutcontainer">
+        <!-- <div class="aboutcontainer"> -->
           <div class="aboutimage">
             <img src="images/about-us.jpg" alt="aboutus" id="aboutus" />
           </div>
@@ -77,7 +81,7 @@
               itaque, assumenda, voluptatibus officia dolore laborum deserunt
               asperiores.
             </p>
-          </div>
+          <!-- </div> -->
         </div>
       </section>
       <section id="services" class="services">
@@ -85,8 +89,9 @@
 
         <!--Cards-->
 
-        <div class="theservices">
+        <div class="theservices card">
           <img src="images/digital.jpg" alt="digital" id="digital" />
+          <div class="cardContent">
           <h3>Digital Transformation</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eum
@@ -95,10 +100,11 @@
             consequatur.
           </p>
           <a href="#" class="servicedigital"
-            >Digital Plans <span class="material-symbols-outlined">arrow_right</span></a
+            >Digital Plans <span class="material-symbols-outlined arrow">arrow_right</span></a
           >
+          </div>
         </div>
-        <div class="marketing">
+        <div class="marketing card">
           <img src="images/marketing.jpg" alt="marketing" id="marketing" />
           <h3>Marketing</h3>
           <p>
@@ -108,10 +114,10 @@
             consequatur.
           </p>
           <a href="#" class="servicemarketing"
-            >Marketing Plans <span class="material-symbols-outlined">arrow_right</span></a
+            >Marketing Plans <span class="material-symbols-outlined arrow">arrow_right</span></a
           >
         </div>
-        <div class="Videoproduction">
+        <div class="Videoproduction card">
           <img
             src="images/video.jpg"
             alt="Videoproduction"
@@ -125,10 +131,10 @@
             consequatur.
           </p>
           <a href="#" class="servicevideo"
-            >Video Plans <span class="material-symbols-outlined">arrow_right</span></a
+            >Video Plans <span class="material-symbols-outlined arrow">arrow_right</span></a
           >
         </div>
-        <div class="Web Development">
+        <div class="Web Development card">
           <img src="images/web.jpg" alt="webdev" id="webdev" />
           <h3>Web Development</h3>
           <p>
@@ -138,10 +144,10 @@
             consequatur.
           </p>
           <a href="#" class="serviceweb"
-            >Web Plans <span class="material-symbols-outlined">arrow_right</span></a
+            >Web Plans <span class="material-symbols-outlined arrow">arrow_right</span></a
           >
         </div>
-        <div class="Print">
+        <div class="Print card">
           <img src="images/print.jpg" alt="print" id="print" />
           <h3>Print</h3>
           <p>
@@ -151,7 +157,7 @@
             consequatur.
           </p>
           <a href="#" class="serviceprint"
-            >Print Plans <span class="material-symbols-outlined">arrow_right</span></a
+            >Print Plans <span class="material-symbols-outlined arrow">arrow_right</span></a
           >
         </div>
       </section>
@@ -171,7 +177,7 @@
             quis nesciunt quae culpa necessitatibus.
           </p>
           <a href="#" class="vision-btn"
-            >Learn More <span class="material-symbols-outlined">arrow_right</span></a
+            >Learn More <span class="material-symbols-outlined arrow">arrow_right</span></a
           >
         </div>
       </section>
@@ -214,14 +220,14 @@
           <label for="email">Email</label>
           <input type="text" id="email" />
           <label for="message">Message</label>
-          <input type="text" id="message" />
+          <textarea type="text" id="message" ></textarea>
           <div class="buttonwrapper">
             <button type="submit">Send</button>
           </div>
           </form>
         </div>
-        
-        <h4>Hours of operation</h4>
+        <div class="operation">
+        <h3>Hours of operation</h3>
         <table>
           <thead>
             <tr>
@@ -231,16 +237,18 @@
           </thead>
           <tbody>
             <tr>
-              <td>Monday-Friday</td>
+              <td>Monday - Friday</td>
               <td>9 AM - 6 PM</td>
             </tr>
             <tr>
-              <td>Saturday-Sunday</td>
+              <td>Saturday - Sunday</td>
               <td>Closed</td>
             </tr>
           </tbody>
         </table>
+        </div>
         <!--the location-->
+        <div class="location">
         <h3>Location</h3>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9503616948955!2d-75.75790842369048!3d45.34981427107227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1764712745200!5m2!1sen!2sca"
@@ -251,6 +259,7 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        </div>
       </section>
     </main>
     <footer>
