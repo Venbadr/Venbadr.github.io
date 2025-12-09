@@ -46,31 +46,45 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* styling css */
+
+body {
+  font-family: "Open Sans", sans-serif;
+ 
+}
 
 .log {
     background-color: #c78c06;
     height: 200px;
+    border: 12px solid #222;
     
 }
 nav {
     background-color: #222;
     justify-items: center;
-    height: 250px;
-    display: grid;
+    /* height: 250px; */
+    /* display: grid; */
+     /* gap: 94px; */
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     
 }
 .search {
 
-    height: 20px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    
     
 }
+
+
 .material-symbols-outlined {
     color: #c78c06;
     background-color: #222;
     /* border-color: #c78c06; */
     border: 1px solid #c78c06;
-
-    
-
 }
 
 .arrow {
@@ -82,3 +96,101 @@ nav {
 }
 
 
+.search label {
+    position: absolute;
+    /* left: 10000000px; */
+    top: -100px;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 0;
+  font-size: 1.1rem;
+    color: #c78c06;
+}
+
+nav form {
+    width: 100%;
+    
+}
+.search input {
+    flex: 1;
+    height: 30px;
+}
+  nav form {
+    width: 96%;
+  }
+
+  nav  {
+    padding: 1px 0;
+  }
+
+  
+nav li {
+    margin: 22px 0;    
+    
+}
+nav li:first-child a {
+    background-color: #c78c06;
+    color: black;
+    padding: 45px 0;
+    
+    
+    
+    
+}
+nav li:first-child a {
+    margin-top: -150px;  
+    
+}
+
+#mainbanner {
+  width: 100%;
+
+}
+
+
+.wrapper h1 {
+  font-size: 3rem;      
+  font-weight: 650;
+  margin-bottom: 40px;
+  margin: 15px;
+  color: white;
+  
+}
+
+.wrapper {
+    background-color: #222;
+    
+}
+.connect {
+    background-color: #c78c06;
+    text-decoration: none;
+    color: #222;
+
+}
+.connect {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #c78c06;
+  text-decoration: none;
+  margin: 15px;
+  
+}
+.connect .arrow {
+  color: #000;
+  font-size: 3.5rem;
+  background-color: #c78c06;
+}
+
+.wrapper3 p {
+    color: white;
+    margin: 15px;
+}
+
+.wrapper3 {
+    background-color: #222;
+    
+}
