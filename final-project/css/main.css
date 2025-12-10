@@ -3,55 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* styling css */
 
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
- 
 }
 
 /* max width 1200px */
@@ -63,53 +143,43 @@ footer {
   margin: 0 auto;
 }
 
-
 /* styling logo */
 
 .log {
-    background-color: #c78c06;
-    height: 200px;
-    border: 12px solid #222;
-    
+  background-color: #c78c06;
+  height: 200px;
+  border: 12px solid #222;
 }
 
 /* styling navigations */
 
-
 nav {
-    background-color: #222;
-    justify-items: center;
-    /* height: 250px; */
-    /* display: grid; */
-     /* gap: 94px; */
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     
+  background-color: #222;
+  justify-items: center;
+  /* height: 250px; */
+  /* display: grid; */
+  /* gap: 94px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .search {
-
-    display: flex;
-    width: 100%;
-    margin-bottom: 10px;
-    
-    
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
 }
-
 
 .material-symbols-outlined {
-    color: #c78c06;
-    background-color: #222;
-    /* border-color: #c78c06; */
-    border: 1px solid #c78c06;
+  color: #c78c06;
+  background-color: #222;
+  /* border-color: #c78c06; */
+  border: 1px solid #c78c06;
 }
 
-
-
 .search label {
-    position: absolute;
-    /* left: 10000000px; */
-    top: -100px;
+  position: absolute;
+  /* left: 10000000px; */
+  top: -100px;
 }
 
 nav li a {
@@ -117,91 +187,76 @@ nav li a {
   text-decoration: none;
   padding: 7px 0;
   font-size: 1.1rem;
-    color: #c78c06;
+  color: #c78c06;
 }
 
 nav form {
-    width: 100%;
-    
+  width: 100%;
 }
 .search input {
-    flex: 1;
-    height: 30px;
+  flex: 1;
+  height: 30px;
 }
-  nav form {
-    width: 96%;
-  }
+nav form {
+  width: 96%;
+}
 
-  nav  {
-    padding: 1px 0;
-  }
+nav {
+  padding: 1px 0;
+}
 
-  
 nav li {
-    margin: 22px 0;    
-    
+  margin: 22px 0;
 }
 nav li:first-child a {
-    background-color: #c78c06;
-    color: #222;
-    padding: 45px 0;
-    
-    
-    
-    
+  background-color: #c78c06;
+  color: #222;
+  padding: 45px 0;
 }
 nav li:first-child a {
-    margin-top: -150px;  
-    
+  margin-top: -150px;
 }
-
 
 /* styling header */
 
 .header {
-  position: relative;  
-  background-color: #ffe6ac;      
+  position: relative;
+  background-color: #ffe6ac;
 }
 
 /* styling banner */
 
 #mainbanner {
   width: 100%;
-  height: 550px;             
+  height: 550px;
   object-fit: cover;
-  }  
-
+}
 
 /* styling h1 */
 
 .wrapper h1 {
-  font-size: 3.5rem;      
+  font-size: 3.5rem;
   font-weight: 650;
   margin: 0px;
   color: white;
   line-height: 1.5;
-  
 }
-
-
 
 /* styling connect button  */
 
 .connect {
-    background-color: #c78c06;
-    text-decoration: none;
-    color: #222;
-
+  background-color: #c78c06;
+  text-decoration: none;
+  color: #222;
 }
 .connect {
+  position: relative;
   display: inline-flex;
   align-items: center;
   padding: 10px 20px;
   background: #c78c06;
   text-decoration: none;
   margin-top: 5px;
-  
-  
 }
 .connect .arrow {
   color: #000;
@@ -209,20 +264,15 @@ nav li:first-child a {
   background-color: #c78c06;
 }
 
-
 /* styling p */
 
 .wrapper3 p {
-    color: white;
-    
+  color: white;
 }
 
- 
 .header {
-  position: relative;      
+  position: relative;
 }
-
-
 
 /* overlay over the image */
 .header::before {
@@ -232,25 +282,19 @@ nav li:first-child a {
   background: rgba(0.7, 0.7, 0.7, 0.6);
   height: 427px;
   margin-top: 60px;
-  
-  
-  
 }
 .wrapper3 {
   position: absolute;
-  top: 20%;        
+  top: 20%;
   margin: 15px 15px;
-  z-index: 1;      
+  z-index: 1;
 }
 
-
-
- /* styling p */
+/* styling p */
 .wrapper3 p {
   font-size: 1rem;
   line-height: 1.5;
   margin-top: 20px;
- 
 }
 
 /* styling the about section */
@@ -264,7 +308,6 @@ nav li:first-child a {
   background-color: #ffe6ac;
   padding: 10px;
 }
-
 
 .aboutus h2 {
   font-size: 40px;
@@ -297,7 +340,7 @@ nav li:first-child a {
 .cardcontent {
   background-color: #ffe6ac;
 }
-.theservices  {
+.theservices {
   background-color: #ffe6ac;
 }
 
@@ -310,19 +353,16 @@ nav li:first-child a {
 }
 
 .cardcontent P {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
   line-height: 1.3;
   margin-left: 10px;
 }
 
 .arrow {
-    color: white;
-    background-color: #222;
-    border: #222;
-    
-
-  }
-  
+  color: white;
+  background-color: #222;
+  border: #222;
+}
 
 /* styling the plans */
 
@@ -426,7 +466,6 @@ nav li:first-child a {
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 10px;
-  
 }
 .marketing p {
   margin-bottom: 10px;
@@ -450,7 +489,6 @@ nav li:first-child a {
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 10px;
-  
 }
 .video p {
   margin-bottom: 10px;
@@ -473,7 +511,6 @@ nav li:first-child a {
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 10px;
-  
 }
 .web p {
   margin-bottom: 10px;
@@ -497,7 +534,6 @@ nav li:first-child a {
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 10px;
-  
 }
 .print p {
   margin-bottom: 10px;
@@ -515,9 +551,8 @@ nav li:first-child a {
   margin-top: 20px;
   background-image: url(../images/vision.jpg);
   background-size: cover;
-  background-position: center ;
+  background-position: center;
   max-width: 1200px;
-  
 }
 
 .vision h2 {
@@ -533,7 +568,7 @@ nav li:first-child a {
   color: white;
   margin-left: 10px;
   line-height: 1.5;
-} 
+}
 
 .vision-btn {
   color: white;
@@ -543,18 +578,16 @@ nav li:first-child a {
   margin-left: 10px;
   margin-top: 20px;
   padding: 18px 18px;
-  border: 1px solid #c78c06;  
+  border: 1px solid #c78c06;
   font-size: 1.3rem;
   background: rgba(0.7, 0.7, 0.7, 0.6);
   height: 50px;
   margin-bottom: 15px;
-  
 }
 
 .vision-btn .arrow {
   font-size: 3.3rem;
   background-color: transparent;
-
 }
 
 /* styling the Team */
@@ -581,7 +614,6 @@ nav li:first-child a {
   padding-top: 20px;
   margin-bottom: 10px;
   margin-left: 10px;
-
 }
 .johninfo h4 {
   font-size: 16px;
@@ -590,23 +622,17 @@ nav li:first-child a {
   margin-left: 5px;
   border-bottom: 2px solid #c78c06;
   padding-bottom: 5px;
-  
 }
 .johninfo p {
   margin-left: 5px;
   padding-bottom: 30px;
   line-height: 1.5;
-
 }
-
-
-
 
 #bob {
   display: block;
   padding-top: 10px;
   width: 100%;
-  
 }
 
 .bobinfo {
@@ -619,8 +645,6 @@ nav li:first-child a {
   padding-top: 20px;
   margin-bottom: 10px;
   margin-left: 10px;
-  
-
 }
 .bobinfo h4 {
   font-size: 16px;
@@ -629,13 +653,11 @@ nav li:first-child a {
   margin-left: 5px;
   border-bottom: 2px solid #c78c06;
   padding-bottom: 5px;
-  
 }
 .bobinfo p {
   margin-left: 5px;
   padding-bottom: 30px;
   line-height: 1.5;
-
 }
 /* styling contact */
 
@@ -645,7 +667,6 @@ nav li:first-child a {
   padding-top: 40px;
   margin-bottom: 20px;
   margin-left: 5px;
-
 }
 
 .wrapper2 h3 {
@@ -654,7 +675,6 @@ nav li:first-child a {
   padding-top: 10px;
   margin-bottom: 20px;
   margin-left: 5px;
-
 }
 /* Contact Section */
 .contactinfo {
@@ -680,32 +700,27 @@ nav li:first-child a {
 .contactinfo form {
   display: flex;
   flex-direction: column;
-  gap: 10px; 
+  gap: 10px;
 }
-
 
 .contactinfo label {
   font-size: 15px;
 }
 
-
 .contactinfo textarea {
   width: 100%;
   height: 150px;
-  
 }
 
-
-
 /* styling button*/
-.contactinfo button { 
+.contactinfo button {
   background-color: #222;
   color: #c78c06;
   font-size: 20px;
   cursor: pointer;
   border: none;
   margin-top: 10px;
-  
+
   /* styling the hours of operation */
 }
 .operation h3 {
@@ -714,7 +729,6 @@ nav li:first-child a {
   margin-bottom: 10px;
   margin-top: 20px;
 }
-
 
 .operation table {
   width: 100%;
@@ -738,7 +752,6 @@ nav li:first-child a {
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 20px;
-
 }
 iframe {
   width: 100%;
@@ -757,7 +770,243 @@ footer p a {
   color: #c78c06;
 }
 
+/* styling media min width 760px and above */
 
+@media (min-width: 760px) {
+  /* styling logo */
 
+  .log {
+    height: 20px;
+    background-color: #222;
+    padding-left: 130px;
+  }
 
+  /* styling navs */
 
+  nav {
+    height: 100px;
+    justify-content: center;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  nav li:first-child a {
+    background-color: #c78c06;
+    padding: 10px 30px;
+    margin-top: 0;
+  }
+
+  nav form {
+    margin-left: auto;
+    width: auto;
+    margin-right: 70px;
+  }
+
+  .search {
+  }
+
+  nav {
+    flex-direction: row;
+    justify-items: center;
+    padding-left: 300px;
+  }
+
+  /* styling about section */
+
+  #aboutus {
+    width: 450px;
+    padding-left: 130px;
+    display: block;
+    height: 240px;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+  .aboutimage,
+  .aboutus {
+    align-self: start;
+  }
+
+  .aboutus h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .aboutus p {
+    padding-top: 10px;
+    line-height: 1.3;
+  }
+
+  /* styling services section */
+
+  .services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    grid-template-areas:
+      "title   title   title"
+      "digital marketing marketing"
+      "video   web     print";
+    gap: 10px;
+  }
+
+  .ourservice {
+    grid-area: title;
+  }
+
+  .cardcontent {
+    grid-area: digital;
+  }
+
+  .marketing {
+    grid-area: marketing;
+  }
+
+  .video {
+    grid-area: video;
+  }
+
+  .web {
+    grid-area: web;
+  }
+
+  .print {
+    grid-area: print;
+  }
+
+  .card {
+    max-width: 400px;
+  }
+  .servicedigital {
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 80%;
+  }
+  .servicemarketing {
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 80%;
+  }
+  .servicevideo {
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 80%;
+  }
+  .serviceweb {
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 80%;
+  }
+  .serviceprint {
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 80%;
+  }
+
+  #marketing {
+    width: 100%;
+  }
+
+  .marketing h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  /* styling vision section */
+
+  .visioninfo h2 {
+    padding-left: 50px;
+  }
+  .visioninfo p {
+    padding-left: 50px;
+  }
+  .vision-btn {
+    margin-left: 60px;
+  }
+
+  /* styling team john and bob */
+
+  .teaminfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bobif {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #bob {
+    padding-top: 0px;
+  }
+  /* styling contact */
+
+  .contactinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title title"
+      "form map"
+      "hours hours";
+    gap: 20px;
+  }
+
+  .wrapper2 {
+    grid-area: form;
+  }
+
+  .location {
+    grid-area: map;
+  }
+  .operation {
+    grid-area: hours;
+  }
+
+  /* styling h1 and overlay */
+
+  .wrapper3 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    max-width: 800px;
+  }
+  .header::before {
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 105px;
+  }
+
+  .wrapper3 h1 {
+    padding-left: 10px;
+  }
+  .wrapper3 p {
+    padding-left: 10px;
+  }
+
+  .connect {
+    margin-left: 10px;
+  }
+}
